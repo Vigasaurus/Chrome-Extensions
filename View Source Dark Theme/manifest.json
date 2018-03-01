@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "View Page Source Dark Theme",
+    "version": "0.1",
+
+    "permissions": [
+          "tabs"
+        ],
+
+    "browser_action": {
+
+        "default_icon": "dark.png",
+        "default_title": "Apply Dark Theme"
+
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["editTheme.js"]
+        }
+        ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}

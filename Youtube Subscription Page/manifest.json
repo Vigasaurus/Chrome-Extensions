@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Automatic Youtube Subscription Page Forward",
+    "version": "0.2",
+
+    "permissions": [
+          "tabs"
+        ],
+
+    "browser_action": {
+        "default_title": "Automatic Youtube Sub Forwarder - [PLEASE HIDE]"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "icons": {
+        "1024": "logo.png"
+    }
+
+}

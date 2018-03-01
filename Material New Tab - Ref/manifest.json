@@ -1,0 +1,13 @@
+{
+    "chrome_url_overrides": {
+        "newtab": "index.vulcanized.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "manifest_version": 2,
+    "name": "New Tab",
+    "permissions": ["bookmarks", "chrome://favicon/", "tabs"],
+    "version": "0.0.1"
+}

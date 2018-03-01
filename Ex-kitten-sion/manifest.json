@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "The Kittenizer",
+    "version": "0.4",
+    "web_accessible_resources": [
+        "imgs/one.jpg",
+        "imgs/two.jpg",
+        "imgs/three.jpg",
+        "imgs/four.jpg",
+        "imgs/five.jpg",
+        "imgs/six.jpg",
+        "imgs/seven.jpg",
+        "imgs/eight.jpg",
+        "imgs/nine.jpg",
+        "imgs/ten.jpg"
+    ],
+
+    "browser_action": {
+        "default_icon": "kitten_icon.jpg",
+        "default_title": "Kittenizer"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["kittenizer.js"]
+        }
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+
+
+}

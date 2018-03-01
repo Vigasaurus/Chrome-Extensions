@@ -1,0 +1,10 @@
+line-gutter-backdrop : White -> Dark Gray -> 			#293134
+line-gutter-backdrop.border-right : Dark Gray -> Dark Gray -> 	#293134
+line-number : Gray -> Light Gray -> 				#81969A
+line-content : Black -> Light Gray -> 				#81969A
+body.backgroundColor : White -> Dark Gray -> 			#293134
+html-doctype : Light Gray -> Gray				#949494
+html-tag : Purple -> Magenta -> 				#FF007F
+html-attribute-name : Orange -> Brighter Orange -> 		#EB872F
+html-attribute-value : Blue -> Blue? -> 			#25B4FF
+html-comment : Green -> Lighter Green? -> 			#4CC423
